@@ -1255,7 +1255,7 @@ body.offcanvason .oliven-nav-toggle {
     top: -18%;
     bottom: -25%;
     left: 0;
-    background-image: url(./my_wedding/dots.png);
+    background-image: url(./dots.png);
     background-repeat: repeat;
     z-index: -1;
 }
