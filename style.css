@@ -184,6 +184,7 @@ textarea:focus {
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
+button.buttono,
 button {
     font-family: 'Nunito Sans', sans-serif;
     background: #BD945A;
@@ -1373,8 +1374,10 @@ body.offcanvason .oliven-nav-toggle {
   overflow: hidden; 
 }
 .organization .item-box {
-  padding: 60px 30px;
-  height: 100%;
+  height: auto !important;
+  text-align: center;
+  padding: 60px;
+  /* height: 100%; */
   background-color: #fff;
   border: 1px solid #F6F1F0;
   border-right: 0;
