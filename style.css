@@ -1214,7 +1214,7 @@ body.offcanvason .oliven-nav-toggle {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
+    color: #efa8a8;
     letter-spacing: -1px;
 }
 @media all and (max-width: 768px) {
@@ -1381,6 +1381,10 @@ body.offcanvason .oliven-nav-toggle {
   background-color: #fff;
   border: 1px solid #F6F1F0;
   border-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s; }
@@ -1461,6 +1465,80 @@ body.offcanvason .oliven-nav-toggle {
     font-size: 60px;
     margin-bottom: 0;
 }
+
+
+.footer-section {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-section {
+      padding: 0 0 80px 0;
+    }
+  }
+  
+  .footer-section .couple-name {
+    background: url("./bgfooter.png") center center/cover no-repeat local;
+    width: 415px;
+    height: 483px;
+    margin: 0 auto 120px;
+    padding-left: 45px;
+    display: table;
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-section .couple-name {
+      width: 300px;
+      height: 349px;
+      margin: 0 auto 80px;
+      padding-left: 45px;
+    }
+  }
+  
+  .footer-section .couple-name h2 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 48px;
+    font-size: 3rem;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-section .couple-name h2 {
+      font-size: 38px;
+      font-size: 2.375rem;
+    }
+  }
+  
+  .footer-section h3 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 48px;
+    font-size: 3rem;
+    margin: 0 0 0.2em;
+  }
+  .bg-section {
+    background-color: #fff8f8;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-section h3 {
+      font-size: 30px;
+      font-size: 1.875rem;
+    }
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  
+  .footer-section a {
+    color: #f23b43;
+  }
 
 
 /* =====  Gallery style  ===== */
