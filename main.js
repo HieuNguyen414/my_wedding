@@ -345,3 +345,12 @@
       }, 0)
   }());
     
+  function openMap(value) {
+    console.log('value', value)
+    let link = value == 'nu' ? 'https://goo.gl/maps/F2XAyGekGCYn97V17' : 'https://maps.app.goo.gl/Ao5gFjpjdtQ8vrzm6'
+    if(value == 'nu'){
+        window.open(link, "_blank")
+    }else{
+        window.open(link, "_blank")
+    }
+  }
