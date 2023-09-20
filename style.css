@@ -1004,11 +1004,13 @@ body.offcanvason .oliven-nav-toggle {
     .oliven-hero .flexslider .slider-text > .slider-text-inner h6,
     .oliven-hero .flexslider .slider-text > .slider-text-inner h6 {
         font-size: 12px;
+        color: #e06d6d;
     }
     .oliven-hero .flexslider .slider-text > .slider-text-inner h2,
     .oliven-hero .flexslider .slider-text > .slider-text-inner h2 b,
     .oliven-hero .flexslider .slider-text > .slider-text-inner h2 b {
-    font-size: 40px;
+        font-size: 46px;
+        color: #e06d6d;
 }
 
 }
@@ -1412,7 +1414,8 @@ body.offcanvason .oliven-nav-toggle {
     margin-bottom: 15px;
     text-transform: uppercase;
     font-family: 'Cormorant Garamond', serif;
-    color: #000;
+    /* color: #000; */
+    color: #efa8a8;
 
 }
 .organization .item-box.bg-img {
