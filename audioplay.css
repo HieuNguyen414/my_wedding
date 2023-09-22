@@ -1,0 +1,58 @@
+.audio-player {
+    --player-button-width: 3em;
+  }
+  .controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .player-button {
+    background-color: transparent!important;
+    border: 0;
+    width: var(--player-button-width);
+    height: var(--player-button-width);
+    cursor: pointer;
+    padding: 0;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #837c7c;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .audio-player {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  .icon-container {
+    width: 100%;
+    height: 100%;
+    background-color: #DE5E97;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .audio-icon {
+     width: 90%;
+     height: 90%;
+  }
+  .music-area{
+    position: fixed; bottom: 1rem; right: 1rem; z-index: 9000;
+  }
+  @media (max-width: 768px){
+    .music-area{
+        bottom: 0.5rem; right: 0.5rem;
+         z-index: 9000;
+      }
+      .player-button {
+        
+        padding: 0.8rem;
+      }
+  }
